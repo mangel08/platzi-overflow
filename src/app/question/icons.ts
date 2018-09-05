@@ -176,14 +176,6 @@ export default [
     }
   },
   {
-    'name': 'illustrator',
-    'tags': ['editor', 'vector'],
-    'versions': {
-      'svg': ['plain', 'line'],
-      'font': ['original']
-    }
-  },
-  {
     'name': 'java',
     'tags': ['programming', 'language'],
     'versions': {

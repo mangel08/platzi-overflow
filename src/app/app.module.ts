@@ -7,7 +7,9 @@ import { AppComponent } from './app.component';
 // Material Angular
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
-import 'hammerjs';
+
+// Routing
+import { Routing } from './app.routing';
 
 // Components
 import { QuestionDetailComponent } from './question/question-detail.component';
@@ -17,7 +19,9 @@ import { SignupScreenComponent } from './auth/signup/signup-screen.component';
 import { QuestionListComponent } from './question/question-list.component';
 import { QuestionFormComponent } from './question/question-form.component';
 
+// Plugins and libraries
 import { MomentModule } from 'angular2-moment';
+import 'hammerjs';
 
 @NgModule({
   declarations: [
@@ -35,7 +39,8 @@ import { MomentModule } from 'angular2-moment';
     MaterialModule,
     MomentModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    Routing
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,11 +1,15 @@
 <mat-toolbar color="primary">
-    <span>PlatziOverflow</span>
+    <span [routerLink]="['/']">PlatziOverflow</span>
     <span class="space"></span>
-    <mat-icon>account_circle</mat-icon>
+    <mat-icon [routerLink]="['/signin']">account_circle</mat-icon>
 </mat-toolbar>
 
+<!-- Llamada a Componentes sin router  -->
 <!-- <app-question-detail></app-question-detail> -->
 <!-- <app-signin-screen></app-signin-screen> -->
 <!-- <app-signup-screen></app-signup-screen> -->
 <!-- <app-question-list></app-question-list> -->
-<app-question-form></app-question-form>
+<!-- <app-question-form></app-question-form> -->
+
+<!-- ROUTER -->
+<router-outlet></router-outlet>
