@@ -12,3 +12,11 @@ form {
   width: 90%;
   margin: 40px auto;
 }
+
+.spinner {
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
